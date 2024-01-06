@@ -1,11 +1,18 @@
-import React from 'react'
+import Language from "@/shared/Language";
+import { useTranslation } from "react-i18next";
 
-type Props = {}
+type Props = {};
 
 const Navbar = (props: Props) => {
-  return (
-    <div>Navbar</div>
-  )
-}
+ const { t } = useTranslation()
 
-export default Navbar
+  return (
+    <div>
+      <Language />
+      <h1 className="mess">{t("header.mess")}</h1>
+      <div className="description">{t("home.description")}</div>
+    </div>
+  );
+};
+
+export default Navbar;

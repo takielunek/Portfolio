@@ -9,6 +9,7 @@ Link do strony:
 * TypeScript
 * Tailwind
 * React
+* i18next
 * Vite
 * React Hook Form
 * Heroicons
