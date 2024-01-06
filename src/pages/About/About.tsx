@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar/Navbar"
 const About = () => {
   return (
     <>
-    <Navbar />
+    About
     </>
   )
 }

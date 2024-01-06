@@ -1,8 +1,10 @@
 {
-  "header": {
-    "mess": "sdfghjbkl;"
+  "navbar": {
+    "about": "ABOUT ME",
+    "portfolio": "PORTFOLIO",
+    "skills": "SKILLS",
+    "contact": "CONTACT"
   },
-  "home": {
-    "description": "khjghfgdsrtyuijk"
-  }
+
+  "footer": "All rights reserved."
 }

@@ -1,32 +1,31 @@
-import React from 'react'
 import { useTranslation } from "react-i18next";
 
-type Props = {}
+type Props = {};
 
 const Language = (props: Props) => {
+  const buttonStyle = "font-normal hover:font-bold font-josefin";
 
- const { i18n } = useTranslation();
-
-const handleLanguageChange = (lang: string) => {
-i18n.changeLanguage(lang)
-}
+  const { i18n } = useTranslation();
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang);
+  };
 
   return (
     <div>
       <button
-        onClick={() => handleLanguageChange('pl')}
-        className="m-4 border-2 border-black p-2"
+        onClick={() => handleLanguageChange("pl")}
+        className={`${buttonStyle}`}
       >
         PL
       </button>
       <button
-        onClick={() => handleLanguageChange('en')}
-        className="m-4 border-2 border-black p-2"
+        onClick={() => handleLanguageChange("en")}
+        className={`${buttonStyle} ml-2`}
       >
         EN
       </button>
     </div>
   );
-}
+};
 
-export default Language
+export default Language;

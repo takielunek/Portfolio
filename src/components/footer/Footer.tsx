@@ -1,11 +1,14 @@
-import React from 'react'
+import { useTranslation } from "react-i18next";
 
-type Props = {}
-
-const Footer = (props: Props) => {
+const Footer = () => {
+  const { t } = useTranslation();
   return (
-    <div>Footer</div>
-  )
-}
+    <section className="py-4 ">
+      <div className="text-center font-josefin">
+        <p>&copy; 2023 Karolina Anna Jesionek | {t("footer")}</p>
+      </div>
+    </section>
+  );
+};
 
-export default Footer
+export default Footer;

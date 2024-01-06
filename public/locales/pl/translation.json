@@ -1,8 +1,10 @@
 {
-  "header": {
-    "mess": "sdfghjkl;"
+  "navbar": {
+    "about": "O MNIE",
+    "portfolio": "PORTFOLIO",
+    "skills": "UMIEJĘTNOŚCI",
+    "contact": "KONTAKT"
   },
-  "home": {
-    "description": "ddmjdfjlfjlfg"
-  }
+
+  "footer": "Wszelkie prawa zastrzeżone."
 }

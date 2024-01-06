@@ -1,0 +1,22 @@
+.animation {
+    position: relative;
+}
+
+.animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: #76291F;
+  border-radius: 40px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.animation:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}  
