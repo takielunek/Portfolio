@@ -13,7 +13,7 @@ Link do strony:
 * Vite
 * React Hook Form
 * Heroicons
-* Embed Google Maps
+* React Icons
 * Framer Motion
 * Google Fonts
 * Tinyfy

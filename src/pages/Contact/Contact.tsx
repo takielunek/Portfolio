@@ -1,11 +1,24 @@
-import React from 'react'
+import { useTranslation } from "react-i18next";
+import Icons from "./Icons"
 
-type Props = {}
+const Contact = () => {
 
-const Contact = (props: Props) => {
+  const { t } = useTranslation();
+
   return (
-    <div>Contact</div>
-  )
-}
+    <section className="bg-burgundy py-10">
+      <div className="font-josefin text-xl text-white">
+        <p className="text-center text-3xl">{t("contact.contact")}</p>
+        <div className="flex justify-around">
+          <div className="pt-10">
+           <Icons />
+          </div>
+        </div>
+      </div>
 
-export default Contact
+      <hr className="h-[80px] bg-burgundy" />
+    </section>
+  );
+};
+
+export default Contact;

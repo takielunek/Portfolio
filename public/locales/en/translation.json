@@ -6,5 +6,28 @@
     "contact": "CONTACT"
   },
 
+  "about": {
+    "name": "My name is KAROLINA,",
+    "title": "postawię stronę internetową od fundamentów.",
+    "button1": "My projects",
+    "button2": "My skills",
+    "button3": "Contact",
+    "text1": "I am civil engineer and second class swimming trainer by education. So far, I have worked not only for construction company and swimming school but also tutoring. Despite my many talents, it was only programming that made me realize I wanted to pursue it on a daily basis.",
+    "text2": "If you are looking for a person who is fully ready for action and further learning, I will be happy to join the team to gain knowledge from professionals and eagerly perform the tasks assigned to me.",
+    "download": "Download my CV."
+  },
+
+  "skills": {
+    "skills": "My skills :",
+    "question1": "W jakiej technologii czuję się najlepiej ?",
+    "question2": "W jakiej technologii chcę docelowo pracować ?",
+    "question3": "Jakich technologii chciałabym się jeszcze nauczyć ? "
+  },
+
+  "contact": {
+    "contact": "Contact me",
+    "map": "Warsaw"
+  },
+
   "footer": "All rights reserved."
 }

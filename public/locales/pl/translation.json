@@ -6,5 +6,28 @@
     "contact": "KONTAKT"
   },
 
+  "about": {
+    "name": "Mam na imię KAROLINA,",
+    "title": "wszystkie swoje realizacje opieram na solidnych fundamentach.",
+    "button1": "Moje projekty",
+    "button2": "Moje umiejętności",
+    "button3": "Kontakt",
+    "text1": "Z wykształcenia jestem inżynierką budownictwa oraz trenerką pływania II klasy. Dotychczas pracowałam w firmie budowlanej, w szkole pływania oraz udzielałam korepetycji. Mimo wielu talentów dopiero programowanie uświadomiło mi, że chcę się nim zajmować na co dzień.",
+    "text2": "Jeżeli poszukują Państwo osoby w pełni gotowej do działania oraz dalszej nauki z przyjemnością dołączę do zespołu aby czerpać wiedzę od specjalistów i z chęcią wykonywać powierzone mi zadania.",
+    "download": "Pobierz moje CV."
+  },
+
+  "skills": {
+    "skills": "Moje umiejętności :",
+    "question1": "W jakiej technologii czuję się najlepiej ?",
+    "question2": "W jakiej technologii chcę docelowo pracować ?",
+    "question3": "Jakich technologii chciałabym się jeszcze nauczyć ? "
+  },
+
+  "contact": {
+    "contact": "Skontaktuj się ze mną",
+    "map": "Warszawa"
+  },
+
   "footer": "Wszelkie prawa zastrzeżone."
 }
