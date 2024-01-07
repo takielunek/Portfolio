@@ -32,6 +32,7 @@ const ContactForm = () => {
       <form
         action="https://formsubmit.co/karolina.anna.jesionek@gmail.com"
         method="POST"
+        onSubmit={onSubmit}
       >
         <div className="mx-auto w-11/12 xl:w-3/5">
           <div>

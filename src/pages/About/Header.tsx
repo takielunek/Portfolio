@@ -11,12 +11,14 @@ const Header = () => {
 
   return (
     <div className="bg-burgundy">
-      <div className="mx-auto w-3/4 pt-6">
+      <div className="mx-auto w-3/4 pt-6 md:w-11/12 xl:w-3/4">
         <div className={`${flexRow}`}>
-          <img src={portret} alt="My portrait" />
-          <div className="flex items-end py-6 md:py-20">
+          <div className="flex justify-around">
+            <img src={portret} alt="My portrait" />
+          </div>
+          <div className="flex items-end justify-around py-6 md:w-1/2 xl:w-3/5 xl:py-20">
             <div className="font-josefin text-xl text-white">
-              <p className="text-3xl">{t("about.name")}</p>
+              <p className="text-4xl lg:text-5xl">{t("about.name")}</p>
               <p>{t("about.title")}</p>
               <div className={`${flexRow2} py-4`}>
                 <a className={`${button}`} href="/portfolio">
