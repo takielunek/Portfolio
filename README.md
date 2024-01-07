@@ -15,6 +15,7 @@ Link do strony:
 * Heroicons
 * React Icons
 * Framer Motion
+* Formsubmit
 * Google Fonts
 * Tinyfy
 * Vercel

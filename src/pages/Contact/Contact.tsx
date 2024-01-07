@@ -9,10 +9,8 @@ const Contact = () => {
     <section>
       <div className="bg-burgundy py-10 font-josefin text-xl text-white">
         <p className="text-center text-3xl">{t("contact.contact")}</p>
-        <div className="flex justify-around">
-          <div className="pt-10">
-            <Icons />
-          </div>
+        <div className="pt-10">
+          <Icons />
         </div>
       </div>
       <ContactForm />
