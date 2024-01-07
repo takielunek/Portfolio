@@ -18,7 +18,8 @@
   },
 
   "skills": {
-    "skills": "Moje umiejętności :",
+    "skills": "Moje umiejętności",
+    "questions": "Najczęściej zadawane pytania",
     "question1": "W jakiej technologii czuję się najlepiej ?",
     "question2": "W jakiej technologii chcę docelowo pracować ?",
     "question3": "Jakich technologii chciałabym się jeszcze nauczyć ? "
@@ -26,7 +27,16 @@
 
   "contact": {
     "contact": "Skontaktuj się ze mną",
-    "map": "Warszawa"
+    "map": "Warszawa",
+    "message": "Napisz do mnie",
+    "placeholder1": "Imię lub nazwa firmy",
+    "placeholder2": "Numer telefonu",
+    "placeholder3": "Email",
+    "placeholder4": "Napisz wiadomość...",
+    "placeholder1Error": "Podaj swoje imię lub nazwę firmy",
+    "placeholder2Error": "Podaj numer telefonu",
+    "placeholder3Error": "Podaj adres email",
+    "placeholder4Error": "Napisz wiadomość..."
   },
 
   "footer": "Wszelkie prawa zastrzeżone."

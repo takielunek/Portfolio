@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-
 import construction from "@/assets/construction.png";
 import website from "@/assets/website.png";
 import Header from "./Header";
@@ -8,7 +7,6 @@ import "./index.css";
 const About = () => {
   const flexRowReverse = "flex flex-col-reverse md:flex-row justify-around";
   const flexRow = "flex flex-col md:flex-row justify-around";
-
   const text =
     "font-josefin text-xl text-burgundy grid w-5/6 md:w-2/5 mx-auto content-center py-6 md:py-0";
 
