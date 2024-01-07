@@ -9,11 +9,11 @@ import { PiMapPinFill } from "react-icons/pi";
 const Icons = () => {
   const style = "flex flex-row py-4";
   const text = "grid content-center ml-2 md:ml-8 text-base md:text-xl";
-  const icon = "text-[25px] md:text-[35px]";
+  const icon = "text-[18px] xxs:text-[25px] md:text-[35px]";
   const { t } = useTranslation();
 
   return (
-    <div className="w-11/12 md:w-4/5 xl:w-3/5 md:mx-auto flex flex-col justify-around xs:flex-row ml-[8%] xxs:ml-[10%] xs:ml-0">
+    <div className="w-10/12 mx-auto flex flex-col xs:flex-row xs:w-11/12 justify-around lg:w-2/3">
       <div>
         <div className={`${style}`}>
           <FaPhone className={`${icon}`} />
