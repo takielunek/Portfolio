@@ -1,0 +1,45 @@
+.burgundyLine {
+    position: relative;
+}
+
+.burgundyLine::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: #76291F;
+  border-radius: 40px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.burgundyLine:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}  
+
+.greenLine {
+    position: relative;
+}
+
+.greenLine::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: #2F5939;
+  border-radius: 40px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.greenLine:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}  

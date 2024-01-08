@@ -1,11 +1,21 @@
-import React from 'react'
+import { useTranslation } from "react-i18next";
+import Carousel from "./Carousel";
+import Projects from "./Projects";
 
-type Props = {}
+const Portfolio = () => {
+  const { t } = useTranslation();
 
-const Portfolio = (props: Props) => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <section>
+      <div className="bg-burgundy py-10">
+        <p className="text-center font-josefin text-3xl text-white">
+          {t("projects.projects")}
+        </p>
+        <Carousel />
+      </div>
+      <Projects />
+    </section>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

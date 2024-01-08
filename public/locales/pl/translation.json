@@ -17,6 +17,15 @@
     "download": "Pobierz moje CV."
   },
 
+  "projects": {
+    "projects": "Moje projekty",
+    "kindergarten": "Przedszkole Planeta Dziecka",
+    "dentistry": "Stomatologia Zębuszka",
+    "shelter": "Schronisko dla psów",
+    "photography": "Studio fotograficzne",
+    "shop": "Sklep Miodzio"
+  },
+
   "skills": {
     "skills": "Moje umiejętności",
     "questions": "Najczęściej zadawane pytania",

@@ -18,6 +18,7 @@ const About = () => {
 
       <div className={`${flexRowReverse} mx-auto w-3/4 py-2 md:py-10`}>
         <p className={`${text}`}>{t("about.text1")}</p>
+
         <img
           src={construction}
           alt="Construction image"

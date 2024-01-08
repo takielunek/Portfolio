@@ -17,6 +17,15 @@
     "download": "Download my Resume."
   },
 
+  "projects": {
+    "projects": "My projects",
+    "kindergarten": "Kindergarten",
+    "dentistry": "Dentistry",
+    "shelter": "Dog shelter",
+    "photography": "Photographic studio",
+    "shop": "Miodzio shop"
+  },
+
   "skills": {
     "skills": "My skills",
     "questions": "Frequently asked questions",
