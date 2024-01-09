@@ -1,7 +1,7 @@
 ## Informacje ogólne
 Strona internetowa mojego portfolio.
 
-Link do strony: https://portfolio-fo88rm1v3-takielunek.vercel.app/
+Link do strony: 
 
 ## Użyte technologie
 * HTML
