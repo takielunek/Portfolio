@@ -14,6 +14,7 @@ const Contact = () => {
         </div>
       </div>
       <ContactForm />
+
       <hr className="h-[80px] bg-burgundy" />
     </section>
   );

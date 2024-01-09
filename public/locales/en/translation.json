@@ -19,11 +19,13 @@
 
   "projects": {
     "projects": "My projects",
+    "website": "Website",
     "kindergarten": "Kindergarten",
     "dentistry": "Dentistry",
     "shelter": "Dog shelter",
     "photography": "Photographic studio",
-    "shop": "Miodzio shop"
+    "shop": "Miodzio shop",
+    "kindergarten2": "Kindergarten"
   },
 
   "skills": {

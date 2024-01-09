@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import kindergarten from "@/assets/projects/kindergarten.png";
+import kindergarten2 from "@/assets/projects/kindergarten2.png";
 import shelter from "@/assets/projects/shelter.png";
 import dentistry from "@/assets/projects/dentistry.png";
 import photography from "@/assets/projects/photography.png";
@@ -43,7 +44,7 @@ const Projects = () => {
             href="https://przedszkole-planeta-dziecka.netlify.app/"
             className="greenLine ml-10"
           >
-            Strona internetowa
+            {t("projects.website")}
           </a>
         </div>
       </div>
@@ -67,7 +68,7 @@ const Projects = () => {
             href="https://zebuszka-stomatologia.vercel.app/"
             className="burgundyLine ml-10"
           >
-            Strona internetowa
+            {t("projects.website")}
           </a>
         </div>
       </div>
@@ -91,31 +92,31 @@ const Projects = () => {
             href="https://github.com/takielunek/Sklep_Miodzio"
             className="greenLine ml-10"
           >
-            Strona internetowa
+            {t("projects.website")}
           </a>
         </div>
       </div>
       <hr className="h-10 bg-burgundy" />
       {/* photography  */}
       <div className="bg-white py-20">
-        <p className={`${burgundyTitle}`}>{t("projects.photography")}</p>
+        <p className={`${burgundyTitle}`}>{t("projects.kindergarten2")}</p>
         <div className="flex justify-around">
           <div className={`${burgundyBorder}`}>
-            <img src={photography} alt="" className={`${img}`} />
+            <img src={kindergarten2} alt="" className={`${img}`} />
           </div>
         </div>
         <div className={`${burgundyText}`}>
           <a
-            href="https://github.com/takielunek/Studio_fotograficzne_bootstrap"
+            href="https://github.com/takielunek/Przedszkole_Planeta_Dziecka?tab=readme-ov-file"
             className="burgundyLine"
           >
             GitHub
           </a>
           <a
-            href="https://studio-fotograficzne-bootstrap.vercel.app/index.html"
+            href="https://38-przedszkole-planeta-dziecka-jj66bbx9j-takielunek.vercel.app/"
             className="burgundyLine ml-10"
           >
-            Strona internetowa
+            {t("projects.website")}
           </a>
         </div>
       </div>
@@ -139,7 +140,31 @@ const Projects = () => {
             href="https://dogs-shelter-inky.vercel.app/"
             className="greenLine ml-10"
           >
-            Strona internetowa
+            {t("projects.website")}
+          </a>
+        </div>
+      </div>
+      <hr className="h-10 bg-burgundy" />
+      {/* photography  */}
+      <div className="bg-white py-20">
+        <p className={`${burgundyTitle}`}>{t("projects.photography")}</p>
+        <div className="flex justify-around">
+          <div className={`${burgundyBorder}`}>
+            <img src={photography} alt="" className={`${img}`} />
+          </div>
+        </div>
+        <div className={`${burgundyText}`}>
+          <a
+            href="https://github.com/takielunek/Studio_fotograficzne_bootstrap"
+            className="burgundyLine"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://studio-fotograficzne-bootstrap.vercel.app/index.html"
+            className="burgundyLine ml-10"
+          >
+            {t("projects.website")}
           </a>
         </div>
       </div>

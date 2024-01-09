@@ -29,17 +29,12 @@ const ContactForm = () => {
       <p className="pb-10 text-center text-3xl text-burgundy">
         {t("contact.message")}
       </p>
-      <form
-        action="https://formsubmit.co/karolina.anna.jesionek@gmail.com"
-        method="POST"
-        onSubmit={onSubmit}
-      >
-        <div className="mx-auto w-11/12 xl:w-3/5">
+      <form onSubmit={onSubmit}>
+        <div className="mx-auto w-11/12 lg:w-2/3">
           <div>
             <div className={`${style} p-2`}>
               {" "}
               <input
-                required
                 type="text"
                 {...register("name", { required: true })}
                 name="name"
@@ -47,24 +42,25 @@ const ContactForm = () => {
                 placeholder={t("contact.placeholder1")}
               />{" "}
             </div>
-            {errors.name && (
+            {errors?.name && (
               <span className={`${error}`}>
                 {t("contact.placeholder1Error")}
               </span>
             )}
           </div>
+
           <div>
             <div className={`${style} p-2`}>
               {" "}
               <input
-                required
+                type="tel"
                 {...register("phone", { required: true })}
-                name="number"
+                name="phone"
                 className={`${input}`}
                 placeholder={t("contact.placeholder2")}
               />{" "}
             </div>
-            {errors.phone && (
+            {errors?.phone && (
               <span className={`${error}`}>
                 {t("contact.placeholder2Error")}
               </span>
@@ -74,15 +70,14 @@ const ContactForm = () => {
             <div className={`${style} p-2`}>
               {" "}
               <input
-                required
                 type="email"
                 {...register("email", { required: true })}
                 name="email"
                 className={`${input}`}
                 placeholder={t("contact.placeholder3")}
-              />{" "}
+              />
             </div>
-            {errors.email && (
+            {errors?.email && (
               <span className={`${error}`}>
                 {t("contact.placeholder3Error")}
               </span>
@@ -91,14 +86,14 @@ const ContactForm = () => {
           <div>
             <div className={`${style} p-2 pb-0`}>
               <textarea
-                required
                 {...register("message", { required: true })}
                 name="message"
+                rows={5}
                 className={`${input}`}
                 placeholder={t("contact.placeholder4")}
               />
             </div>
-            {errors.message && (
+            {errors?.message && (
               <span className={`${error}`}>
                 {t("contact.placeholder4Error")}
               </span>
@@ -114,8 +109,9 @@ const ContactForm = () => {
             </button>
           </div>
         </div>
-        <input type="hidden" name="_template" value="table"></input>
       </form>
+
+
     </div>
   );
 };

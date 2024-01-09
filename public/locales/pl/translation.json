@@ -19,11 +19,13 @@
 
   "projects": {
     "projects": "Moje projekty",
+    "website": "Strona internetowa",
     "kindergarten": "Przedszkole Planeta Dziecka",
     "dentistry": "Stomatologia Zębuszka",
     "shelter": "Schronisko dla psów",
     "photography": "Studio fotograficzne",
-    "shop": "Sklep Miodzio"
+    "shop": "Sklep Miodzio",
+    "kindergarten2": "Przedszkole Planeta Dziecka"
   },
 
   "skills": {
