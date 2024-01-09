@@ -47,7 +47,8 @@
     "placeholder1Error": "Pole \"Imię lub nazwa firmy\" nie może pozostać puste.",
     "placeholder2Error": "Pole \"numer telefonu\" nie może pozostać puste.",
     "placeholder3Error": "Pole \"adres email\" nie może pozostać puste.",
-    "placeholder4Error": "Pole \"Napisz wiadomość...\" nie może pozostać puste."
+    "placeholder4Error": "Pole \"Napisz wiadomość...\" nie może pozostać puste.",
+    "send": "Wyślij"
   },
 
   "footer": "Wszelkie prawa zastrzeżone."

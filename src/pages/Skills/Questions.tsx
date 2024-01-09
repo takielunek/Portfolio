@@ -13,7 +13,7 @@ const Questions = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="mx-auto w-11/12 py-10 xl:w-3/5">
+    <div className="mx-auto w-11/12 py-10 lg:w-2/3 xl:w-1/2">
       <p className="pb-10 text-center text-3xl text-burgundy">
         {t("skills.questions")}
       </p>

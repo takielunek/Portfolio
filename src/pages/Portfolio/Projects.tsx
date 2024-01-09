@@ -26,7 +26,7 @@ const Projects = () => {
   return (
     <>
       {/* kindergarten */}
-      <div className="bg-white py-20">
+      <div className="bg-white py-10 md:py-20 px-10">
         <p className={`${greenTitle}`}>{t("projects.kindergarten")}</p>
         <div className="flex justify-around">
           <div className={`${greenBorder}`}>
@@ -168,7 +168,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <hr className="h-10 bg-burgundy" />
+      <hr className="h-[80px] bg-burgundy" />
     </>
   );
 };

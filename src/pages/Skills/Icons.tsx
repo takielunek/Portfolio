@@ -15,27 +15,36 @@ import { FaWordpress } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
 
 const Icons = () => {
-  const icon = "text-[30px] md:text-[65px] text-white m-2";
+  const icon = "text-[30px] xs:text-[50px] md:text-[65px] text-white m-2";
+  const flex = "flex flex-row justify-between"
 
   return (
-    <>
-      <IoLogoJavascript className={`${icon}`} />
-      <SiTypescript className={`${icon}`} />
-      <FaReact className={`${icon}`} />
-      <SiReactrouter className={`${icon}`} />
-      <SiRedux className={`${icon}`} />
-      <FaHtml5 className={`${icon}`} />
-      <FaCss3 className={`${icon}`} />
-      <FaSass className={`${icon}`} />
-      <FaBootstrap className={`${icon}`} />
-      <SiTailwindcss className={`${icon}`} />
-      <SiStyledcomponents className={`${icon}`} />
-      <FaGit className={`${icon}`} />
-      <FaGithub className={`${icon}`} />
-      <FaWordpress className={`${icon}`} />
-      <SiVite className={`${icon}`} />
-    </>
+    <div className="mx-auto w-11/12 pt-4 xs:py-10 lg:w-2/3 xl:w-1/2 ">
+      <div className={`${flex}`}>
+        <IoLogoJavascript className={`${icon}`} />
+        <SiTypescript className={`${icon}`} />
+        <FaReact className={`${icon}`} />
+        <SiReactrouter className={`${icon}`} />
+        <SiRedux className={`${icon}`} />
+      </div>
+      <div className={`${flex}`}>
+        <FaHtml5 className={`${icon}`} />
+        <FaCss3 className={`${icon}`} />
+        <FaSass className={`${icon}`} />
+        <FaBootstrap className={`${icon}`} />
+        <SiTailwindcss className={`${icon}`} />
+      </div>
+      <div className={`${flex}`}>
+        <SiStyledcomponents className={`${icon}`} />
+        <FaGit className={`${icon}`} />
+        <FaGithub className={`${icon}`} />
+        <FaWordpress className={`${icon}`} />
+        <SiVite className={`${icon}`} />
+      </div>
+    </div>
   );
 };
 
 export default Icons;
+
+

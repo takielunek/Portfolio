@@ -47,7 +47,8 @@
     "placeholder1Error": "Enter your name or company name",
     "placeholder2Error": "Enter your phone number",
     "placeholder3Error": "Enter your email",
-    "placeholder4Error": "Write a message..."
+    "placeholder4Error": "Write a message...",
+    "send": "Send"
   },
 
   "footer": "All rights reserved."

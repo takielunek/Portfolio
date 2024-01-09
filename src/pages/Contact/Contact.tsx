@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Icons from "./Icons";
+
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -14,7 +15,6 @@ const Contact = () => {
         </div>
       </div>
       <ContactForm />
-
       <hr className="h-[80px] bg-burgundy" />
     </section>
   );
