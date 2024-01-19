@@ -25,7 +25,8 @@
     "shelter": "Dog shelter",
     "photography": "Photographic studio",
     "shop": "Miodzio shop",
-    "kindergarten2": "Kindergarten"
+    "kindergarten2": "Kindergarten",
+    "accounts": "Accounts"
   },
 
   "skills": {
@@ -48,7 +49,8 @@
     "placeholder2Error": "Enter your phone number",
     "placeholder3Error": "Enter your email",
     "placeholder4Error": "Write a message...",
-    "send": "Send"
+    "send": "Send",
+    "sendMessage": "The message has been sent !"
   },
 
   "footer": "All rights reserved."

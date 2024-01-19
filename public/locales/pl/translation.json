@@ -25,7 +25,8 @@
     "shelter": "Schronisko dla psów",
     "photography": "Studio fotograficzne",
     "shop": "Sklep Miodzio",
-    "kindergarten2": "Przedszkole Planeta Dziecka"
+    "kindergarten2": "Przedszkole Planeta Dziecka",
+    "accounts": "KsięgowośćIT.pl"
   },
 
   "skills": {
@@ -48,7 +49,8 @@
     "placeholder2Error": "Pole \"numer telefonu\" nie może pozostać puste.",
     "placeholder3Error": "Pole \"adres email\" nie może pozostać puste.",
     "placeholder4Error": "Pole \"Napisz wiadomość...\" nie może pozostać puste.",
-    "send": "Wyślij"
+    "send": "Wyślij",
+    "sendMessage": "Wiadomość została wysłana !"
   },
 
   "footer": "Wszelkie prawa zastrzeżone."

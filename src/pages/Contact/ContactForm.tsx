@@ -29,8 +29,7 @@ const ContactForm: React.FC = () => {
       );
       console.log("Email sent successfully");
       reset();
-      if (element != null)
-      {
+      if (element != null) {
         element.style.display = "flex";
       }
     } catch (error) {
@@ -119,7 +118,7 @@ const ContactForm: React.FC = () => {
           </div>
         </div>
         <div className="hidden justify-around pt-10" id="send">
-          <p className="text-2xl text-burgundy">Wiadomość została wysłana!</p>
+          <p className="text-2xl text-burgundy">{t("contact.sendMessage")}</p>
         </div>
       </form>
     </div>
