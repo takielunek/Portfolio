@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import IT from "@/assets/projects/IT.png";
+import portfolio from "@/assets/projects/portfolio.png";
 
 const Section3 = () => {
   const title = "text-center my-3 text-xl";
@@ -23,6 +24,22 @@ const Section3 = () => {
               </button>
               <button className={`${buttonStyle}`}>
                 <a href="https://ksiegowosc-it-pl.vercel.app/">
+                  {t("projects.website")}
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-1/2 lg:w-1/4 ">
+          <div className="bg-white">
+            <img src={portfolio} alt="" />
+            <p className={`${title}`}>{t("projects.portfolio")}</p>
+            <div className="flex justify-center gap-2">
+              <button className={`${buttonStyle}`}>
+                <a href="https://github.com/takielunek/Portfolio">GitHub</a>
+              </button>
+              <button className={`${buttonStyle}`}>
+                <a href="">
                   {t("projects.website")}
                 </a>
               </button>
