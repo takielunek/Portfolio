@@ -15,8 +15,8 @@ import { FaWordpress } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
 
 const Icons = () => {
-  const icon = "text-[30px] xs:text-[50px] md:text-[65px] text-white m-2";
-  const flex = "flex flex-row justify-between"
+  const icon = "text-[30px] md:text-[35px] text-white m-2";
+  const flex = "flex flex-row justify-around"
 
   return (
     <div className="mx-auto w-11/12 pt-4 xs:py-10 lg:w-2/3 xl:w-1/2 ">
