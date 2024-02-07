@@ -1,5 +1,5 @@
 ## Informacje ogólne
-Strona internetowa mojego portfolio.
+Strona internetowa mojego portfolio - W TRAKCIE TWORZENIA.
 
 Link do strony: 
 
