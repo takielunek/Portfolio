@@ -16,7 +16,7 @@ const About = () => {
     <section>
       <Header />
 
-      <div className={`${flexRowReverse} mx-auto w-3/4 py-2 md:py-10`}>
+      <div className={`${flexRowReverse}  mx-auto w-3/4 py-2 md:py-10`}>
         <p className={`${text}`}>{t("about.text1")}</p>
 
         <img
@@ -33,7 +33,7 @@ const About = () => {
           {t("about.download")}
         </a>
       </div>
-      <div className={`${flexRow} mx-auto w-3/4 py-2 md:py-10`}>
+      <div className={`${flexRow}  mx-auto w-3/4 py-2 md:py-10`}>
         <img
           src={website}
           alt="Computer image"

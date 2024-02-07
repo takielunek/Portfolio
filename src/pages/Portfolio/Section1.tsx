@@ -17,7 +17,7 @@ const Section1 = () => {
 
   return (
     <div className="bg-burgundy py-20">
-      <div className="mx-auto flex w-4/5 justify-around">
+      <div className="mx-auto flex w-4/5 justify-around ">
         <div className="w-1/2 lg:w-1/4 ">
           <div className="bg-white">
             <img src={kindergarten2} alt="" />
