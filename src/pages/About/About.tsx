@@ -28,7 +28,7 @@ const About = () => {
       <div className="bg-burgundy py-6 text-center">
         <a
           className="line font-josefin text-2xl text-white"
-          href="./src/assets/pdf/Karolina_Jesionek_CV_Resume.pdf"
+          href="./src/assets/pdf/Karolina_Jesionek_Resume.pdf"
         >
           {t("about.download")}
         </a>

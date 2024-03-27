@@ -28,15 +28,22 @@
     "kindergarten2": "Kindergarten",
     "accounts": "Accounts",
     "portfolio": "My portfolio",
-    "youmoney": "youmoney.pl"
+    "youmoney": "YouMoney"
   },
 
   "skills": {
     "skills": "My skills",
     "questions": "Frequently asked questions",
-    "question1": "W jakiej technologii czuję się najlepiej ?",
-    "question2": "W jakiej technologii chcę docelowo pracować ?",
-    "question3": "Jakich technologii chciałabym się jeszcze nauczyć ? "
+    "question1": "Why did I choose frontend?",
+    "question2": "Which technology I feel most comfortable with?",
+    "question3": "What technology do I ultimately want to work with? ",
+    "question4": "What technologies do I still want to learn about? ",
+    "question5": "How I develop my IT skills? ",
+    "answer1": "Why did I choose frontend?",
+    "answer2": "Which technology I feel most comfortable with?",
+    "answer3": "What technology do I ultimately want to work with? ",
+    "answer4": "What technologies do I still want to learn about? ",
+    "answer5": "How I develop my IT skills? "
   },
 
   "contact": {

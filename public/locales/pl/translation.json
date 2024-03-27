@@ -28,16 +28,24 @@
     "kindergarten2": "Przedszkole Planeta Dziecka",
     "accounts": "KsięgowośćIT.pl",
     "portfolio": "Moje portfolio",
-    "youmoney": "youmoney.pl"
+    "youmoney": "YouMoney"
   },
 
   "skills": {
     "skills": "Moje umiejętności",
     "questions": "Najczęściej zadawane pytania",
-    "question1": "W jakiej technologii czuję się najlepiej?",
-    "question2": "W jakiej technologii chcę docelowo pracować?",
-    "question3": "Jakich technologii chciałabym się jeszcze nauczyć? "
+    "question1": "Dlaczego wybrałam frontend?",
+    "question2": "W jakiej technologii czuję się najlepiej?",
+    "question3": "W jakiej technologii chcę docelowo pracować? ",
+    "question4": "Jakie technologie chcę jeszcze poznać? ",
+    "question5": "W jaki sposób zdobywam wiedzę w zakresie IT? ",
+    "answer1": "Wybór front-endu jako mojej ścieżki w programowaniu wynika z kilku ważnych powodów. Przede wszystkim, zdecydowałam się rozpocząć przygodę z programowaniem, ponieważ nie chcę ograniczać się do wykonywania tych samych zadań, ale raczej stale się rozwijać i podejmować nowe wyzwania. Front-end daje mi możliwość ciągłego uczenia się i wykorzystywania nowych technologii oraz narzędzi w projektach, co bardzo mnie motywuje. Ponadto, podczas eksploracji różnych ścieżek w IT, doszłam do wniosku, że chciałabym być odpowiedzialna za to, co użytkownik widzi i doświadcza. Front-end daje mi możliwość bezpośredniego wpływu na interakcje użytkowników z aplikacjami internetowymi oraz ich doświadczenia. To stanowisko pozwala mi przekształcać projekty graficzne w działające, interaktywne interfejsy, co sprawia mi ogromną przyjemność. W skrócie, wybór front-endu jako mojej dziedziny skupienia w IT wynika z mojego pragnienia ciągłego rozwoju, chęci podejmowania nowych wyzwań oraz satysfakcji płynącej z tworzenia użytkownikom przyjaznych aplikacji internetowych.",
+    "answer2": "W obszarze tworzenia stron internetowych czy aplikacji, moja największa pewność i komfort znajdują się przy wykorzystaniu biblioteki React.js, w połączeniu z językiem JavaScript oraz językiem CSS. Dzięki React.js mam możliwość efektywnego tworzenia dynamicznych i interaktywnych interfejsów, podczas gdy znajomość JavaScriptu i CSS pozwala mi precyzyjnie kontrolować wygląd i zachowanie stron. ",
+    "answer3": "Na daną chwilę docelowa technologia, w której chciałbym pracować, to React. Uważam, że React jest niezwykle potężnym narzędziem do budowania dynamicznych i responsywnych interfejsów użytkownika. Chciałbym kontunuować zgłębianie Reacta, aby stać się ekspertem w tej dziedzinie.",
+    "answer4": "W najbliższej przyszłości chciałbym zgłębić framework Angular oraz Vue.js, ponieważ uważam, że posiadają one ogromny potencjał i są bardzo popularne w branży. Ponadto, planuję zdobyć także wiedzę na temat języka GraphQL, który zyskuje coraz większą popularność jako alternatywa w obszarze zapytań API. Wierzę, że zdobycie umiejętności w tych technologiach pozwoli mi tworzyć jeszcze bardziej zaawansowane i innowacyjne aplikacje, spełniając tym samym wymagania rynku.",
+    "answer5": "Wiedzę w dziedzinie IT zdobywam poprzez różnorodne źródła. Regularnie uczę się nowych technologii i narzędzi poprzez kursy online oraz czytanie dokumentacji, korzystam również z takich źródeł jak youtube czy chatGPT. Natomiast praktyczne projekty odgrywają kluczową rolę w moim procesie nauki, ponieważ pozwalają mi utrwalać zdobytą wiedzę."
   },
+
 
   "contact": {
     "contact": "Skontaktuj się ze mną",

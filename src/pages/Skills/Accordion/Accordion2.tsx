@@ -19,15 +19,15 @@ const Accordion = () => {
         <p
           className={`${
             accordionIsOpen ? "text-2xl font-bold" : "text-xl"
-          } font-josefin text-burgundy p-[10px]`}
+          } p-[10px] font-josefin text-burgundy`}
         >
-          {t("skills.question1")}
+          {t("skills.question2")}
         </p>
         <p>
           <FaArrowDown
             className={`${
               accordionIsOpen ? "rotate-[180deg]" : " rotate"
-            } mt-[10px] text-[20px] text-burgundy duration-300`}
+            } mt-[15px] text-[20px] text-burgundy duration-300`}
           />
         </p>
       </button>
@@ -38,7 +38,7 @@ const Accordion = () => {
             : "grid-rows-[0fr] opacity-0"
         } grid overflow-hidden transition-all duration-300 ease-in-out`}
       >
-        <div className={`${text} overflow-hidden`}>{t("skills.question1")}</div>
+        <div className={`${text} overflow-hidden`}>{t("skills.answer2")}</div>
       </div>
     </div>
   );

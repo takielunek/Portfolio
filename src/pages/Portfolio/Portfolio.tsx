@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
+import Section1 from "./Sections/Section1";
+import Section2 from "./Sections/Section2";
+import Section3 from "./Sections/Section3";
+import Section9 from "./Sections/Section9";
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -13,6 +14,8 @@ const Portfolio = () => {
           {t("projects.projects")}
         </p>
       </div>
+      <Section9 />
+      <hr className="h-20 bg-white" />
       <Section3 />
       <hr className="h-20 bg-white" />
       <Section2 />
