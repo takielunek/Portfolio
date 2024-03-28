@@ -3,7 +3,8 @@ import { useTranslation } from "react-i18next";
 type Props = {};
 
 const Language = (props: Props) => {
-  const buttonStyle = "font-normal hover:font-bold font-josefin";
+  const buttonStyle =
+    "font-normal hover:font-bold font-josefin hover:text-burgundy";
 
   const { i18n } = useTranslation();
   const handleLanguageChange = (lang: string) => {

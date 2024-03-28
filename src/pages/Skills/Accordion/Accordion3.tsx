@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaArrowDown } from "react-icons/fa6";
+import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Accordion = () => {
 
@@ -11,7 +11,7 @@ const Accordion = () => {
   const [accordionIsOpen, setAccordionIsOpen] = useState(false);
 
   return (
-    <div className="border-b-[1px] border-burgundy">
+    <div className="border-b-[1px] border-ecru">
       <button
         onClick={() => setAccordionIsOpen(!accordionIsOpen)}
         className={`${flex}`}
@@ -24,10 +24,10 @@ const Accordion = () => {
           {t("skills.question3")}
         </p>
         <p>
-          <FaArrowDown
+          <IoIosArrowRoundDown
             className={`${
               accordionIsOpen ? "rotate-[180deg]" : " rotate"
-            } mt-[15px] text-[20px] text-burgundy duration-300`}
+            } mt-[10px] text-[30px] text-burgundy duration-300`}
           />
         </p>
       </button>

@@ -8,7 +8,8 @@ import { PiMapPinFill } from "react-icons/pi";
 
 const Icons = () => {
   const style = "flex flex-row py-4";
-  const text = "grid content-center ml-2 md:ml-8 text-base md:text-xl";
+  const text =
+    "grid content-center ml-2 md:ml-8 text-base md:text-xl hover:text-ecru duration-300";
   const icon = "text-[18px] xxs:text-[25px] md:text-[35px]";
   const { t } = useTranslation();
 

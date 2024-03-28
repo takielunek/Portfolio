@@ -1,8 +1,11 @@
 import { useTranslation } from "react-i18next";
-import Section1 from "./Sections/Section1";
-import Section2 from "./Sections/Section2";
-import Section3 from "./Sections/Section3";
 import Section9 from "./Sections/Section9";
+import Section8 from "./Sections/Section8";
+import Section7 from "./Sections/Section7";
+import Section6 from "./Sections/Section6";
+import Section5 from "./Sections/Section5";
+import Section4 from "./Sections/Section4";
+import Section3 from "./Sections/Section3";
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -16,11 +19,17 @@ const Portfolio = () => {
       </div>
       <Section9 />
       <hr className="h-20 bg-white" />
+      <Section8 />
+      <hr className="h-20 bg-white" />
+      <Section7 />
+      <hr className="h-20 bg-white" />
+      <Section6 />
+      <hr className="h-20 bg-white" />
+      <Section5 />
+      <hr className="h-20 bg-white" />
+      <Section4 />
+      <hr className="h-20 bg-white" />
       <Section3 />
-      <hr className="h-20 bg-white" />
-      <Section2 />
-      <hr className="h-20 bg-white" />
-      <Section1 />
       <hr className="h-20 bg-white" />
       <div className="bg-burgundy py-10"></div>
     </section>

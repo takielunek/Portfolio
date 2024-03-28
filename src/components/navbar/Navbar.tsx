@@ -7,8 +7,9 @@ import "./index.css";
 
 const Navbar = () => {
   const flexBetween = "flex items-center justify-between";
-  const desktopNavbar = "animation font-josefin hover:font-bold";
-  const mobileNavbar = "font-josefin hover:font-bold";
+  const desktopNavbar =
+    "animation font-josefin hover:font-bold hover:text-burgundy";
+  const mobileNavbar = "font-josefin hover:font-bold ";
   const name = "font-josefin text-xl font-bold text-burgundy";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1000px)");
   const [isMenuToggled, setIsMenuToggled] = useState(false);

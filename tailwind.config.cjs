@@ -8,6 +8,8 @@ module.exports = {
         burgundy: "#76291F",
         green: "#2F5939",
         ecru: "#CBBE7C",
+        ecru2: "#CBC08A",
+        red: "#BB0000",
       },
 
       fontFamily: {
