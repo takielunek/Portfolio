@@ -2,6 +2,7 @@
 import { useTranslation } from "react-i18next";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
+import { useState } from "react";
 
 const ContactForm: React.FC = () => {
   const style = "border-[3px] border-burgundy my-4 rounded-xl";
@@ -17,7 +18,7 @@ const ContactForm: React.FC = () => {
     formState: { errors },
   } = useForm();
 
-  const element = document.getElementById("send");
+  const [isMessageSent, setMessageSent] = useState(false);
 
   const onSubmit = (form_data: any) => {
     try {
@@ -29,9 +30,7 @@ const ContactForm: React.FC = () => {
       );
       console.log("Email sent successfully");
       reset();
-      if (element != null) {
-        element.style.display = "flex";
-      }
+      setMessageSent(true);
     } catch (error) {
       console.error("Error sending email:", error);
     }
@@ -117,8 +116,12 @@ const ContactForm: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className="hidden justify-around pt-10" id="send">
-          <p className="text-2xl text-burgundy">{t("contact.sendMessage")}</p>
+        <div className="flex justify-around pt-10">
+          {isMessageSent && (
+            <p className="text-center text-xl text-burgundy sm:text-2xl">
+              {t("contact.sendMessage")}
+            </p>
+          )}
         </div>
       </form>
     </div>
