@@ -34,16 +34,16 @@
   "skills": {
     "skills": "My skills",
     "questions": "Frequently asked questions",
-    "question1": "Why did I choose frontend?",
+    "question1": "What motivated my decision to pursue frontend?",
     "question2": "Which technology I feel most comfortable with?",
     "question3": "What technology do I ultimately want to work with? ",
     "question4": "What technologies do I still want to learn about? ",
     "question5": "How I develop my IT skills? ",
-    "answer1": "Why did I choose frontend?",
-    "answer2": "Which technology I feel most comfortable with?",
-    "answer3": "What technology do I ultimately want to work with? ",
-    "answer4": "What technologies do I still want to learn about? ",
-    "answer5": "How I develop my IT skills? "
+    "answer1": "The choice of front-end as my path in programming stems from several important reasons. First and foremost, I decided to embark on the journey of programming because I don't want to limit myself to performing the same tasks, but rather to constantly evolve and take on new challenges. Front-end offers me the opportunity for continuous learning and utilizing new technologies and tools in projects, which greatly motivates me. Additionally, during the exploration of various paths in IT, I came to the conclusion that I would like to be responsible for what users see and experience. Front-end gives me the ability to have a direct impact on user interactions with web applications and their experiences. This position allows me to transform graphic designs into functional, interactive interfaces, which brings me great satisfaction. In summary, the choice of front-end as my focus area in IT stems from my desire for continuous development, willingness to take on new challenges, and the satisfaction derived from creating user-friendly web applications.",
+    "answer2": "In the realm of creating websites or applications, my greatest confidence and comfort lie in utilizing the React.js library, in conjunction with JavaScript and CSS. With React.js, I have the ability to efficiently create dynamic and interactive interfaces, while knowledge of JavaScript and CSS allows me to precisely control the appearance and behavior of websites.",
+    "answer3": "At the moment, the target technology I would like to work with is React. I believe that React is an extremely powerful tool for building dynamic and responsive user interfaces. I would like to continue delving into React to become an expert in this field.",
+    "answer4": "In the near future, I would like to delve into the Angular and Vue.js frameworks because I believe they have tremendous potential and are highly popular in the industry. Additionally, I plan to acquire knowledge about the GraphQL language, which is gaining increasing popularity as an alternative in the realm of API queries. I believe that gaining skills in these technologies will allow me to create even more advanced and innovative applications, thus meeting market demands.",
+    "answer5": "I acquire knowledge in the field of IT through various sources. I regularly learn new technologies and tools through online courses and reading documentation. I also utilize sources such as YouTube and ChatGPT. However, practical projects play a crucial role in my learning process because they allow me to solidify the knowledge I&#39;ve gained."
   },
 
   "contact": {

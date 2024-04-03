@@ -39,7 +39,7 @@ const textDiv = "w-5/6 md:w-2/5 mx-auto flex justify-around py-3";
       <div
         className={`${flexRow}  mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 `}
       >
-        <img src={website} alt="Computer image" className="md:w-2/5" />
+        <img src={website} alt="Computer image" className="md:w-2/5 " />
         <div className={`${textDiv}`}>
           <p className={`${text} border-r-2`}>{t("about.text2")}</p>
         </div>
