@@ -50,7 +50,7 @@ const Navbar = () => {
       )}
 
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className="fixed top-0 bottom-0 w-full bg-burgundy">
+        <div className="fixed top-0 bottom-0 w-full bg-burgundy z-50">
           <div className="mx-auto w-5/6 py-6">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
               <XMarkIcon className="h-6 w-6 text-white" />

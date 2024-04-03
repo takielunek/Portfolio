@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
@@ -9,10 +8,8 @@ import Navbar from "./components/navbar/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <BrowserRouter>
-    <Suspense fallback="loading">
-      <Navbar />
-      <AllRoutes />
-      <Footer />
-    </Suspense>
+    <Navbar />
+    <AllRoutes />
+    <Footer />
   </BrowserRouter>
 );

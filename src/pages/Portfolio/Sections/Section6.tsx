@@ -24,7 +24,7 @@ const Section6 = () => {
                 <img src={kindergarten} alt="" />
                 <div className="absolute bottom-[15px] -left-[30px] rounded-r-xl bg-ecru py-[4px] pr-[30px] pl-[50px]">
                   <p className="text-sm font-medium text-white lg:text-base xl:text-lg xxl:text-xl">
-                    projekt pod klienta
+                    {t("projects.forPractice")}
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Section6 = () => {
                 <img src={kindergarten} alt="" />
                 <div className="absolute bottom-0 -left-[30px] rounded-r-xl bg-ecru py-[2px] pl-[20px] pr-[20px] xsss:py-[4px] xsss:pl-[30px] xss:pr-[30px] xss:pl-[50px] xs:bottom-[15px] md:py-[5px]">
                   <p className="text-sm font-medium text-white lg:text-base xl:text-lg xxl:text-xl">
-                    projekt dla klienta
+                    {t("projects.forPractice")}
                   </p>
                 </div>
               </div>

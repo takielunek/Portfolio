@@ -22,13 +22,13 @@
     "website": "Website",
     "kindergarten": "Kindergarten",
     "dentistry": "Dentistry",
-    "shelter": "Dog shelter",
-    "photography": "Photographic studio",
     "shop": "Miodzio shop",
     "kindergarten2": "Kindergarten",
     "accounts": "Accounts",
     "portfolio": "My portfolio",
-    "youmoney": "YouMoney"
+    "youmoney": "YouMoney",
+    "forClient": "project for the client",
+    "forPractice": "project for practice"
   },
 
   "skills": {

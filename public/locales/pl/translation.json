@@ -22,13 +22,13 @@
     "website": "Strona internetowa",
     "kindergarten": "Przedszkole Planeta Dziecka",
     "dentistry": "Stomatologia Zębuszka",
-    "shelter": "Schronisko dla psów",
-    "photography": "Studio fotograficzne",
     "shop": "Sklep Miodzio",
     "kindergarten2": "Przedszkole Planeta Dziecka",
     "accounts": "KsięgowośćIT.pl",
     "portfolio": "Moje portfolio",
-    "youmoney": "YouMoney"
+    "youmoney": "YouMoney",
+    "forClient": "projekt dla klienta",
+    "forPractice": "projekt dla praktyki"
   },
 
   "skills": {
