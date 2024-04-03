@@ -20,7 +20,7 @@ const textDiv = "w-5/6 md:w-2/5 mx-auto flex justify-around py-3";
       <Header />
 
       <div
-        className={`${flexRowReverse} mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 xxxl:w-1/2`}
+        className={`${flexRowReverse} mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 `}
       >
         <div className={`${textDiv}`}>
           <p className={`${text} border-l-2`}>{t("about.text1")}</p>
@@ -37,7 +37,7 @@ const textDiv = "w-5/6 md:w-2/5 mx-auto flex justify-around py-3";
         </a>
       </div>
       <div
-        className={`${flexRow}  mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 xxxl:w-1/2`}
+        className={`${flexRow}  mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 `}
       >
         <img src={website} alt="Computer image" className="md:w-2/5" />
         <div className={`${textDiv}`}>
