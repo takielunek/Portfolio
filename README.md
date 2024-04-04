@@ -1,13 +1,50 @@
+## General info
+My portfolio website.
+
+Link to site: https://karolina-jesionek.netlify.app/
+
+## Getting Started
+First, run the development server:
+
+```
+npm run dev
+```
+
+## Technologies
+* HTML
+* CSS
+* TypeScript
+* JavaScript
+* Tailwind
+* React
+* i18next
+* Vite
+* React Hook Form
+* Heroicons
+* React Icons
+* Framer Motion
+* EmailJS
+* Google Fonts
+* Tinyfy
+* Vercel
+* Canva
+
+## Contact
+Programmed by: [Karolina Jesionek](mailto:karolina.anna.jesionek@gmail.com)
+
+
 ## Informacje ogólne
-<<<<<<< HEAD
-Strona internetowa mojego portfolio. - W TRAKCIE TWORZENIA
-=======
-Strona internetowa mojego portfolio - W TRAKCIE TWORZENIA.
->>>>>>> 6fdc9b5c0589ed1f189eb75408eab23bf654e26d
+Strona internetowa mojego portfolio.
 
-Link do strony: 
+Link do strony: https://karolina-jesionek.netlify.app/
 
-## Użyte technologie
+## Inicjacja
+
+```
+npm run dev
+```
+
+## Technologie
 * HTML
 * CSS
 * TypeScript
@@ -27,5 +64,4 @@ Link do strony:
 * Canva
 
 ## Kontakt
-Programowała: [Karolina Jesionek](mailto:karolina.anna.jesionek@gmail.com) 
-
+Programowała: [Karolina Jesionek](mailto:karolina.anna.jesionek@gmail.com)
