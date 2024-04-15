@@ -37,7 +37,9 @@ const Section9 = () => {
                       <a href="https://github.com/takielunek/Fauget">GitHub</a>
                     </button>
                     <button className={`${buttonStyle}`}>
-                      <a href="">{t("projects.website")}</a>
+                      <a href="https://fauget1.netlify.app/">
+                        {t("projects.website")}
+                      </a>
                     </button>
                   </div>
                   <div className="mx-auto flex justify-around py-[20px] ">
@@ -77,7 +79,9 @@ const Section9 = () => {
                     <button
                       className={`${buttonStyle} py-[2px] xsss:py-[3px] xss:w-1/2 xs:py-[4px] sm:py-[5px] md:p-[6px]`}
                     >
-                      <a href="">{t("projects.website")}</a>
+                      <a href="https://fauget1.netlify.app/">
+                        {t("projects.website")}
+                      </a>
                     </button>
                   </div>
                   <div className="mx-auto flex justify-around pb-[10px] ">
