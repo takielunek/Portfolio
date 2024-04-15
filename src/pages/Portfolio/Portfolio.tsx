@@ -6,6 +6,7 @@ import Section6 from "./Sections/Section6";
 import Section5 from "./Sections/Section5";
 import Section4 from "./Sections/Section4";
 import Section3 from "./Sections/Section3";
+import Section10 from "./Sections/Section10";
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -17,6 +18,8 @@ const Portfolio = () => {
           {t("projects.projects")}
         </p>
       </div>
+      <Section10 />
+      <hr className="h-20 bg-white" />
       <Section9 />
       <hr className="h-20 bg-white" />
       <Section8 />

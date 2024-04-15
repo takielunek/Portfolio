@@ -11,7 +11,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { FaGit } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import { FaWordpress } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 
 const Icons = () => {
@@ -21,24 +21,26 @@ const Icons = () => {
   return (
     <div className="mx-auto w-11/12 pt-4 xs:py-10 lg:w-2/3 xl:w-1/2 ">
       <div className={`${flex}`}>
-        <IoLogoJavascript className={`${icon}`} />
-        <SiTypescript className={`${icon}`} />
+        <SiNextdotjs className={`${icon}`} />
         <FaReact className={`${icon}`} />
         <SiReactrouter className={`${icon}`} />
         <SiRedux className={`${icon}`} />
+        <IoLogoJavascript className={`${icon}`} />
       </div>
       <div className={`${flex}`}>
+        <SiTypescript className={`${icon}`} />
         <FaHtml5 className={`${icon}`} />
         <FaCss3 className={`${icon}`} />
         <FaSass className={`${icon}`} />
-        <FaBootstrap className={`${icon}`} />
+
         <SiTailwindcss className={`${icon}`} />
       </div>
       <div className={`${flex}`}>
+        <FaBootstrap className={`${icon}`} />
         <SiStyledcomponents className={`${icon}`} />
         <FaGit className={`${icon}`} />
         <FaGithub className={`${icon}`} />
-        <FaWordpress className={`${icon}`} />
+
         <SiVite className={`${icon}`} />
       </div>
     </div>
