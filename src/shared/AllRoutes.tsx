@@ -3,7 +3,7 @@ import About from "@/pages/About/About";
 import Skills from "@/pages/Skills/Skills";
 import Portfolio from "@/pages/Portfolio/Portfolio";
 import Contact from "@/pages/Contact/Contact";
-import Download from "@/pages/Download/Download";
+// import Download from "@/pages/Download/Download";
 
 
 function AllRoutes() {
@@ -14,7 +14,7 @@ function AllRoutes() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/download" element={<Download />} />
+        {/* <Route path="/download" element={<Download />} /> */}
       </Routes>
     </>
   );
