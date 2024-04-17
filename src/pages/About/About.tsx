@@ -29,12 +29,7 @@ const textDiv = "w-5/6 md:w-2/5 mx-auto flex justify-around py-3";
         <img src={construction} alt="Construction image" className="md:w-2/5" />
       </div>
       <div className="bg-burgundy h-[80px] text-center">
-        {/* <a
-          className="line font-josefin text-2xl text-white"
-          href="./src/assets/pdf/Karolina_Jesionek.pdf"
-        >
-          {t("about.download")}
-        </a> */}
+
       </div>
       <div
         className={`${flexRow}  mx-auto w-11/12 py-2 xs:w-3/4 md:w-11/12 md:py-10 xl:w-3/4 `}
