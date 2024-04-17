@@ -31,7 +31,7 @@ const textDiv = "w-5/6 md:w-2/5 mx-auto flex justify-around py-3";
       <div className="bg-burgundy py-6 text-center">
         <a
           className="line font-josefin text-2xl text-white"
-          href="./src/assets/pdf/Karolina_Jesionek_Resume.pdf"
+          href="./src/assets/pdf/Karolina_Jesionek.pdf"
         >
           {t("about.download")}
         </a>
