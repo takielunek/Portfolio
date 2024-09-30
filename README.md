@@ -4,7 +4,7 @@
 My portfolio website.
 Link to site: https://karolina-jesionek.netlify.app/
 
-![Website Screenshot]()
+![Website Screenshot](https://github.com/takielunek/Portfolio/blob/857df9a95827d587374d9fffbe126f67e6aa241f/screenshot.png)
 
 ## 🛠️ Getting Started
 
