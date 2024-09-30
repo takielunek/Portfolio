@@ -32,14 +32,13 @@
   content: "\2192";
   position: absolute;
   opacity: 0;
-  top: 10px;
+  top: 8px;
   right: -10px;
   transition: 0.5s;
-
 }
 
 .arrowIcon:hover {
-  padding-right: 25px;
+  padding-right: 50px;
 }
 
 .arrowIcon:hover:after {

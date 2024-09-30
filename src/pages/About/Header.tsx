@@ -7,7 +7,7 @@ const Header = () => {
   const flexRow2 = "flex flex-col xl:flex-row justify-around";
 
   const button =
-    " font-medium rounded-xl bg-ecru py-2 px-8 text-white m-1 text-center hover: duration-300 flex justify-center arrowIcon";
+    " font-medium rounded-xl bg-ecru py-2 px-8 text-white m-1 text-center duration-300 flex justify-center arrowIcon";
   const { t } = useTranslation();
 
   return (
